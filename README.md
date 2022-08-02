@@ -13,6 +13,6 @@
 - rich
 
 ## Run
-```python
+```bash
 python QSCounting.py
 ```
