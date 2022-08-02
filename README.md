@@ -11,3 +11,8 @@
 - easydict
 - pyyaml
 - rich
+
+## Run
+'''python
+python QSCounting.py
+'''
