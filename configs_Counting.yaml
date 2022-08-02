@@ -1,0 +1,22 @@
+# INPUT_PATH : 'C:\niuge_workspace\input\1108\6um'
+INPUT_PATH : 'C:\niuge_workspace\input\1108\6um'
+OUTPUT_PATH : './output'
+DRAW_PATH : './for_draw'
+SCATTER_PATH : './scatters'
+EXCEL_PATH : './20220701.csv'
+SIZE_INFORMATION : './information.csv'
+THRESHOLD : 150  # 
+RATIO : [0.7,1.43]
+AREA_THRESHOLD : 180 #* Only balls over 180 are counted
+VISUALIZATION : true  #! true or false is optional
+SCATTER : true #! true or false is optional
+BBOX_WIDTH : 2 #! The width of the detection box
+DURATIONS : #! The following three sizes are represented by different colors
+  - [0.1,24]  # RED
+  - [24,35]   # GREEN
+  - [35,60]    # BLUE
+COLORS : #! RGBA  MODE 
+  - [255,0,0,100]
+  - [0,255,0]
+  - [0,0,255]
+  - [255,255,255]
